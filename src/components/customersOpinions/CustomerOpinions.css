@@ -1,0 +1,39 @@
+.customers-opinions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 390px;
+    width: auto;
+}
+
+/* Styles for customer opinion buttons */
+.customer-opinions-btn {
+    font-size: 14px; /* Set the font size to make the buttons smaller */
+    padding: 5px 8px; /* Adjust padding for a smaller size */
+    margin-right: 5px; /* Adjust the spacing between buttons */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add smooth transitions for hover and click effects */
+    border-radius: 8px; /* Round the corners of the button */
+    border: 1px solid #ccc; /* Add a border for visual appeal */
+    min-width: 7rem;
+}
+
+/* Hover effect for buttons */
+.customer-opinions-btn:hover {
+    background-color: #ddd; /* Change background color on hover */
+    color: #333; /* Change text color on hover */
+}
+
+/* Click effect for buttons */
+.customer-opinions-btn:active {
+    background-color: #bbb; /* Change background color on click */
+    color: #555; /* Change text color on click */
+}
+
+.customers-btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+

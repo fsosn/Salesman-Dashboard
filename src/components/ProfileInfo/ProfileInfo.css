@@ -1,0 +1,92 @@
+/* Add this to your styles.css or equivalent */
+.user-info {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.profile-container {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.profile-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: var(--bs-tertiary-bg);
+    border: 1px solid var(--bs-secondary-bg);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index:1;
+}
+
+.profile-list li {
+    padding: 10px;
+    border-bottom: 1px solid var(--bs-secondary-bg);
+    transition: background-color 0.3s;
+}
+
+.profile-list li:hover {
+    background-color: var(--bs-secondary-bg);
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name {
+    font-weight: 400;
+    font-size: 21px;
+    color: #9493FF;
+}
+
+/* Additional styles to match the provided style */
+.container {
+    height: 100vh;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.wrapper {
+    position: fixed;
+    width: calc(100% - 250px);
+    height: 100%;
+    left: 250px;
+    top: 0;
+    z-index: 999;
+    transition: left 0.5s, width 0.5s;
+}
+
+.wrapper-max {
+    width: calc(100% - 64px);
+    left: 64px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 10px;
+    height: 75px;
+}
+
+.account-name {
+    margin-right: 12px;
+    color: #945aff;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.profile-info {
+    font-size: 14px;
+    font-weight: bold;
+    color: #9493FF;
+}
+
+/* ... Add other styles as needed */

@@ -1,0 +1,50 @@
+.sales-quality-index-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    width: 400px;
+    height: 50px;
+}
+
+.sales-quality-index-img {
+    width: 35px;
+    height: 35px;
+    margin-left: 2rem;
+    display: flex;
+    /*margin-bottom: 0.5rem; !* Adjust the margin between stars and comment *!*/
+    margin-right: 2rem; /* Adjust the margin between stars and comment */
+}
+
+.sales-quality-index-stars-comment-container {
+    width: 200px;
+}
+
+.sales-quality-index-stars-container {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.sales-quality-index-star {
+    width: 1rem; /* Adjust the width of the image */
+    height: 1rem; /* Adjust the height of the image */
+    margin-right: 5px; /* Adjust the spacing between stars */
+}
+
+.sales-quality-index-comment {
+    padding-top: 15px;
+    margin-left: 1rem;
+    font-size: 14px;
+    width: 170px;
+}
+
+.sales-quality-index-summary {
+    font-weight: 300;
+    margin-left: 2rem;
+    padding-right:15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    background-color: gainsboro;
+}
+

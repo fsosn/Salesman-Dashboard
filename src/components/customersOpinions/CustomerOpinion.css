@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Container for each customer opinion */
+.customer-opinion-container {
+    width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--bs-secondary-bg);
+}
+
+/* Container for customer image and name */
+.customer-img-name {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+/* Styles for the customer image */
+.customer-image {
+    border-radius: 50%;
+    width: 50px; /* Adjust the width of the image */
+    height: 50px; /* Adjust the height of the image */
+}
+
+/* Styles for the customer name */
+.customer-name {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: 6px;
+}
+
+/* Container for customer stars and comment */
+.customer-stars-comment {
+    width: 220px;
+    padding-top: 20px;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container for customer stars */
+.customer-stars {
+    margin-left: 2rem;
+    display: flex;
+    margin-bottom: 15px; /* Adjust the margin between stars and comment */
+}
+
+/* Styles for individual stars */
+.customer-star {
+    width: 1rem; /* Adjust the width of the image */
+    height: 1rem; /* Adjust the height of the image */
+    margin-right: 5px; /* Adjust the spacing between stars */
+}
+
+/* Styles for the customer comment */
+.customer-comment {
+    font-size: 15px;
+    margin: 2rem; /* Reset margin for consistent spacing */
+    margin-top: 5px; /* Adjust the margin above the comment */
+}

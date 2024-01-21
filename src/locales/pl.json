@@ -1,0 +1,21 @@
+{
+  "dashboard": "Panel główny",
+  "settings": "Ustawienia",
+  "logout": "Wyloguj się",
+  "sales-chart": "Wykres Sprzedaży",
+  "sales-tips": "Porady Sprzedażowe",
+  "sales-quality": "Jakość Sprzedaży",
+  "offers-ranking": "Ranking Ofert",
+  "customer-opinions": "Opinie Klientów",
+  "orders": "Zamówienia",
+  "sign-in": "Zaloguj się",
+  "password": "Hasło",
+  "no-account-question": "Nie posiadasz konta?",
+  "register": "Zarejestruj się",
+  "with-google": "poprzez Google",
+  "or": "lub",
+  "all": "Wszystkie",
+  "negative": "Negatywne",
+  "positive": "Pozytywne",
+  "learn-more": "Dowiedz się więcej o trendach"
+}

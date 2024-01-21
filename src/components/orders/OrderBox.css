@@ -1,0 +1,12 @@
+.box-title {
+    color: #5A67BA
+}
+
+.box-number {
+    color: #8A65A3
+}
+
+.box-container{
+    display: flex;
+    align-items: center;
+}

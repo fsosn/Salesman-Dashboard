@@ -1,0 +1,13 @@
+.sales-quality-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sales-quality-container-main {
+    margin-left: 2rem;
+}
+
+.sales-quality-overall-container{
+    margin-left: 3rem;
+    padding: 1rem;
+}

@@ -1,0 +1,25 @@
+{
+  "dashboard": "Dashboard",
+  "settings": "Settings",
+  "logout": "Log out",
+  "sales-chart": "Sales Chart",
+  "sales-tips": "Sales Tips",
+  "sales-quality": "Sales Quality",
+  "offers-ranking": "Offers Ranking",
+  "customer-opinions": "Customer Opinions",
+  "sign-in": "Sign in",
+  "password": "Password",
+  "no-account-question": "Don't have an account?",
+  "register": "Register",
+  "with-google": "with Google",
+  "or": "or",
+  "all": "All",
+  "negative": "Negative",
+  "positive": "Positive",
+  "learn-more": "Learn more about trends",
+
+  "orders": "Orders",
+  "orders-paid": "Paid orders",
+  "orders-unpaid": "Unpaid orders",
+  "orders-returned": "Returned orders"
+}

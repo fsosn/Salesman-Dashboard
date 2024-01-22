@@ -10,7 +10,7 @@ const salesChartSlice = createSlice({
     initialState,
     reducers: {
         changeSalesChartData: (state, action) => {
-            state.chartData = action.payload.chartData;
+            state.chartData = action.payload;
         }
     },
 });

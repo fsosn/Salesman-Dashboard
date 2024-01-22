@@ -53,6 +53,8 @@ const ProfileInfo = () => {
     const handleProfileChangeOnSalesChart = (profileName) => {
         let chosenProfile = chooseProfile(profileName);
         let chartData = chosenProfile.chartData
+        console.log("choosen chartData")
+        console.log(chartData)
         dispatch(changeSalesChartData(chartData));
     }
 

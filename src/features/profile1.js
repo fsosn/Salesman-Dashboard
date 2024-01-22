@@ -52,5 +52,5 @@ export const profile1 = {
         offersProductsMost,
         offersProductsLeast
     },
-    chartData: chartData
+    chartData
 }

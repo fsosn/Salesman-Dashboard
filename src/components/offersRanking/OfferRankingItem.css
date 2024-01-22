@@ -1,0 +1,65 @@
+.offer-ranking-item-container {
+    width: 300px;
+    height: 55px;
+    background-color: #dddddd; /* Grey background color */
+    border-radius: 10px; /* Curly curves */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); /* Box shadow with a slight blur */
+}
+
+.offer-ranking-item-img-container {
+    width: 50px;
+    height: 50px;
+    background-color: #e7a9fa; /* Purple background color */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.offer-ranking-item-img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.offer-ranking-item-name-values-container {
+    width: 100px;
+    margin-left: 1rem;
+    flex: 1;
+}
+
+.offer-ranking-item-name {
+    font-weight: 400;
+    margin-left: 0.5rem;
+    font-size: 20px;
+}
+
+.offer-ranking-item-name-values {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-ranking-item-name-value {
+    display: flex;
+    align-items: center;
+}
+
+.offer-ranking-item-name-value img {
+    margin-top: 0.1rem;
+    margin-right: 0.1rem;
+    width: 20px;
+    height: 20px;
+}
+
+/* Additional styling for ImageWithMoneyAmount */
+.offer-ranking-item-name-value div {
+    margin-top: 0.1rem;
+    font-size: 15px;
+    display: flex;
+    width: 110px;
+}

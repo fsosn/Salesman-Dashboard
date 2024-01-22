@@ -1,15 +1,13 @@
 import '../styles.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGoogle} from "@fortawesome/free-brands-svg-icons/faGoogle";
-import {useContext, useState} from "react";
+import {useContext} from "react";
 import {useTranslation} from "react-i18next";
 import {useLocation, useNavigate} from "react-router-dom";
 import {AuthContext} from "../context/AuthContext.js";
 
 
 const LoginForm = () => {
-    // const [username, setUsername] = useState('');
-    // const [password, setPassword] = useState('');
     const {t} = useTranslation();
     const navigate = useNavigate();
     const auth = useContext(AuthContext);
@@ -24,11 +22,8 @@ const LoginForm = () => {
         const username = formData.get("username");
         const password = formData.get("password");
 
-        console.log("Submitted Username:", username);
-        console.log("Submitted Password:", password);
-
         auth.signin(username, password, () => {
-            navigate(from, { replace: true });
+            navigate(from, {replace: true});
         });
     }
 
@@ -45,13 +40,14 @@ const LoginForm = () => {
                             <form onSubmit={handleSubmit}>
                                 <div className="mb-3">
                                     <label htmlFor="username" className="form-label">
-                                        E-mail:
+                                        Login:
                                     </label>
                                     <input
                                         name="username"
                                         type="text"
                                         className="form-control"
                                         id="username"
+                                        value="tomcruise1962"
                                     />
                                 </div>
                                 <div className="mb-3">
@@ -63,6 +59,7 @@ const LoginForm = () => {
                                         type="password"
                                         className="form-control"
                                         id="password"
+                                        value="topgun"
                                     />
                                 </div>
                                 <div className="text-center sign-button-container">

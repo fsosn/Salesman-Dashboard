@@ -1,7 +1,8 @@
+import './OfferRankingItem.css'
 
-let imgValue;
-let imgMoney;
-let imgAmount;
+let imgValue = "https://freepngimg.com/thumb/categories/1325.png";
+let imgMoney = "https://lh3.googleusercontent.com/proxy/YpkK8ev6JxPOkPR6dc0Viys6ySHsOVRPw-dwwM2gDSgfwqp2MXsUCNqrUEz4HYQkUV6CQRVSTooRkuRSF473znPxZ4OKwbEBu73RlfoKppm1R4hb-vU"
+let imgAmount = "https://cdn-icons-png.flaticon.com/512/2413/2413651.png"
 
 const OfferRankingItem = ({frequency ,offerRankingItem}) => {
 
@@ -28,12 +29,12 @@ const OfferRankingItem = ({frequency ,offerRankingItem}) => {
 }
 
 const ImageWithMoneyAmount = ({frequency, amount, money}) => {
-    return frequency === 'least' ? (<div>
+    return frequency === 'Least' ? (<div>
         <img src={imgAmount} alt={'amount'}/>
         <div>{amount}</div>
     </div>) : (<div>
         <img src={imgMoney} alt={'money'}/>
-        <div>{money}</div>
+        <div>{money}$</div>
     </div>)
 
 }
@@ -44,3 +45,5 @@ const ImageWithValue = ({value}) => {
         <div>{value}</div>
     </div>)
 }
+
+export default OfferRankingItem;

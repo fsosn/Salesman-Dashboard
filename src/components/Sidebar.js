@@ -3,7 +3,7 @@ import {
     faBars,
     faCog,
     faSignOutAlt,
-    faHome,
+    faHome, faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import {useTranslation} from 'react-i18next';
 import {useContext} from "react";
@@ -32,10 +32,17 @@ const Sidebar = ({collapsed, setCollapsed}) => {
 
             <div
                 className="menu-item"
-                onClick={() => (window.location.href = "#")}
+                onClick={() => navigate("/settings")}
             >
                 <FontAwesomeIcon icon={faCog} className="menu-item-icon"/>
                 <span className="menu-link">{t('settings')}</span>
+            </div>
+            <div
+                className="menu-item"
+                onClick={() => navigate("/account")}
+            >
+                <FontAwesomeIcon icon={faUser} className="menu-item-icon"/>
+                <span className="menu-link">{t('account')}</span>
             </div>
             <div className="spacer-logout"></div>
             <div

@@ -1,7 +1,11 @@
-a{
+.tips-text{
     color: #5A67BA;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 16px;
     margin-top: 8px;
     text-decoration: none;
+}
+
+.tips-text:hover{
+    color: #6878d7;
 }

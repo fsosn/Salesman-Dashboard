@@ -3,6 +3,8 @@ import {
     customersOpinionsNegative,
     customersOpinionsPositive
 } from "../model/opinions/CustomersOpinions2.js";
+import {offersProductsLeast, offersProductsMost} from "../model/products/OffersRanking2.js";
+import chartData from "../model/chart/salesData2.json";
 
 export const profile2 = {
     profileName: "Furniture",
@@ -39,5 +41,16 @@ export const profile2 = {
             }
         ],
         overall: 3
-    }
+    },
+    orderCount:{
+        paid: 204,
+        unpaid: 0,
+        returned: 47
+    },
+    offersRanking: {
+        type: 'Most',
+        offersProductsMost,
+        offersProductsLeast
+    },
+    chartData: chartData
 }

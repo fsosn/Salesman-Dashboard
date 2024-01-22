@@ -1,0 +1,262 @@
+{
+  "today": [
+    {
+      "date": "2024-01-27T00:00:00",
+      "name": "00:00",
+      "revenue": 412,
+      "quantity": 4,
+      "previousRevenue": 536,
+      "previousQuantity": 3
+    },
+    {
+      "date": "2024-01-27T01:00:00",
+      "name": "01:00",
+      "revenue": 300,
+      "quantity": 5,
+      "previousRevenue": 518,
+      "previousQuantity": 4
+    },
+    {
+      "date": "2024-01-27T02:00:00",
+      "name": "02:00",
+      "revenue": 761,
+      "quantity": 5,
+      "previousRevenue": 366,
+      "previousQuantity": 1
+    },
+    {
+      "date": "2024-01-27T03:00:00",
+      "name": "03:00",
+      "revenue": 529,
+      "quantity": 5,
+      "previousRevenue": 546,
+      "previousQuantity": 2
+    },
+    {
+      "date": "2024-01-27T04:00:00",
+      "name": "04:00",
+      "revenue": 668,
+      "quantity": 3,
+      "previousRevenue": 262,
+      "previousQuantity": 1
+    },
+    {
+      "date": "2024-01-27T05:00:00",
+      "name": "05:00",
+      "revenue": 534,
+      "quantity": 1,
+      "previousRevenue": 629,
+      "previousQuantity": 3
+    },
+    {
+      "date": "2024-01-27T06:00:00",
+      "name": "06:00",
+      "revenue": 592,
+      "quantity": 3,
+      "previousRevenue": 290,
+      "previousQuantity": 1
+    },
+    {
+      "date": "2024-01-27T07:00:00",
+      "name": "07:00",
+      "revenue": 327,
+      "quantity": 3,
+      "previousRevenue": 630,
+      "previousQuantity": 3
+    },
+    {
+      "date": "2024-01-27T08:00:00",
+      "name": "08:00",
+      "revenue": 385,
+      "quantity": 4,
+      "previousRevenue": 323,
+      "previousQuantity": 4
+    },
+    {
+      "date": "2024-01-27T09:00:00",
+      "name": "09:00",
+      "revenue": 164,
+      "quantity": 5,
+      "previousRevenue": 535,
+      "previousQuantity": 4
+    },
+    {
+      "date": "2024-01-27T10:00:00",
+      "name": "10:00",
+      "revenue": 996,
+      "quantity": 1,
+      "previousRevenue": 542,
+      "previousQuantity": 5
+    },
+    {
+      "date": "2024-01-27T11:00:00",
+      "name": "11:00",
+      "revenue": 346,
+      "quantity": 1,
+      "previousRevenue": 349,
+      "previousQuantity": 4
+    },
+    {
+      "date": "2024-01-27T12:00:00",
+      "name": "12:00",
+      "revenue": 305,
+      "quantity": 2,
+      "previousRevenue": 275,
+      "previousQuantity": 4
+    },
+    {
+      "date": "2024-01-27T13:00:00",
+      "name": "13:00",
+      "revenue": 979,
+      "quantity": 1,
+      "previousRevenue": 668,
+      "previousQuantity": 2
+    },
+    {
+      "date": "2024-01-27T14:00:00",
+      "name": "14:00",
+      "revenue": 149,
+      "quantity": 1,
+      "previousRevenue": 744,
+      "previousQuantity": 5
+    },
+    {
+      "date": "2024-01-27T15:00:00",
+      "name": "15:00",
+      "revenue": 795,
+      "quantity": 3,
+      "previousRevenue": 940,
+      "previousQuantity": 3
+    },
+    {
+      "date": "2024-01-27T16:00:00",
+      "name": "16:00",
+      "revenue": 513,
+      "quantity": 3,
+      "previousRevenue": 590,
+      "previousQuantity": 1
+    },
+    {
+      "date": "2024-01-27T17:00:00",
+      "name": "17:00",
+      "revenue": 888,
+      "quantity": 3,
+      "previousRevenue": 957,
+      "previousQuantity": 4
+    },
+    {
+      "date": "2024-01-27T18:00:00",
+      "name": "18:00",
+      "revenue": 855,
+      "quantity": 3,
+      "previousRevenue": 124,
+      "previousQuantity": 2
+    },
+    {
+      "date": "2024-01-27T19:00:00",
+      "name": "19:00",
+      "revenue": 0,
+      "quantity": 0,
+      "previousRevenue": 228,
+      "previousQuantity": 4
+    },
+    {
+      "date": "2024-01-27T20:00:00",
+      "name": "20:00",
+      "revenue": 0,
+      "quantity": 0,
+      "previousRevenue": 441,
+      "previousQuantity": 5
+    },
+    {
+      "date": "2024-01-27T21:00:00",
+      "name": "21:00",
+      "revenue": 0,
+      "quantity": 0,
+      "previousRevenue": 631,
+      "previousQuantity": 4
+    },
+    {
+      "date": "2024-01-27T22:00:00",
+      "name": "22:00",
+      "revenue": 0,
+      "quantity": 0,
+      "previousRevenue": 662,
+      "previousQuantity": 4
+    },
+    {
+      "date": "2024-01-27T23:00:00",
+      "name": "23:00",
+      "revenue": 0,
+      "quantity": 0,
+      "previousRevenue": 991,
+      "previousQuantity": 5
+    }
+  ],
+  "currentWeek": [
+    {
+      "date": "2024-01-21T00:00:00",
+      "name": "Sun",
+      "revenue": 14159,
+      "quantity": 72,
+      "previousRevenue": 15482,
+      "previousQuantity": 64
+    },
+    {
+      "date": "2024-01-22T00:00:00",
+      "name": "Mon",
+      "revenue": 16048,
+      "quantity": 57,
+      "previousRevenue": 14986,
+      "previousQuantity": 74
+    },
+    {
+      "date": "2024-01-23T00:00:00",
+      "name": "Tue",
+      "revenue": 16347,
+      "quantity": 70,
+      "previousRevenue": 14246,
+      "previousQuantity": 68
+    },
+    {
+      "date": "2024-01-24T00:00:00",
+      "name": "Wed",
+      "revenue": 13269,
+      "quantity": 85,
+      "previousRevenue": 12961,
+      "previousQuantity": 80
+    },
+    {
+      "date": "2024-01-25T00:00:00",
+      "name": "Thu",
+      "revenue": 11807,
+      "quantity": 72,
+      "previousRevenue": 11562,
+      "previousQuantity": 69
+    },
+    {
+      "date": "2024-01-26T00:00:00",
+      "name": "Fri",
+      "revenue": 13272,
+      "quantity": 63,
+      "previousRevenue": 15211,
+      "previousQuantity": 73
+    },
+    {
+      "date": "2024-01-27T00:00:00",
+      "name": "Sat",
+      "revenue": 7620,
+      "quantity": 54,
+      "previousRevenue": 16558,
+      "previousQuantity": 57
+    },
+    {
+      "date": "2024-01-28T00:00:00",
+      "name": "Sun",
+      "revenue": 0,
+      "quantity": 0,
+      "previousRevenue": 13822,
+      "previousQuantity": 55
+    }
+  ]
+}

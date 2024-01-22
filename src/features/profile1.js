@@ -3,6 +3,8 @@ import {
     customersOpinionsNegative,
     customersOpinionsPositive
 } from "../model/opinions/CustomersOpinions.js";
+import {offersProductsLeast, offersProductsMost} from "../model/products/OffersRanking.js";
+import chartData from "../model/chart/salesData1.json"
 
 export const profile1 = {
     profileName: "Kayaks",
@@ -39,5 +41,16 @@ export const profile1 = {
             }
         ],
         overall: 4
-    }
+    },
+    orderCount:{
+        paid: 404,
+        unpaid: 7,
+        returned: 21
+    },
+    offersRanking: {
+        type: 'Most',
+        offersProductsMost,
+        offersProductsLeast
+    },
+    chartData: chartData
 }

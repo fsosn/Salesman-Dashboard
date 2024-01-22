@@ -3,6 +3,8 @@ import CustomersOpinions from "./customersOpinions/CustomerOpinions.jsx";
 import OrderBoxContainer from "./orders/OrderBoxContainer.js";
 import SalesTips from "./salesTips/SalesTips.js"
 import SalesQuality from "./salesQuality/SalesQuality.jsx";
+import SalesChart from "./salesChart/SalesChart.js";
+import OffersRanking from "./offersRanking/OffersRanking.jsx";
 
 const Dashboard = () => {
     const {t} = useTranslation();
@@ -12,6 +14,7 @@ const Dashboard = () => {
             <div className="first-row">
                 <div className="dashboard-item sales-chart">
                     <h3>{t('sales-chart')}</h3>
+                    <SalesChart/>
                 </div>
                 <div className="top-right-panel">
                     <div className="dashboard-item">
@@ -27,6 +30,7 @@ const Dashboard = () => {
             <div className="second-row">
                 <div className="dashboard-item">
                     <h3>{t('offers-ranking')}</h3>
+                    <OffersRanking/>
                 </div>
                 <div className="dashboard-item">
                     <h3>{t('customer-opinions')}</h3>
@@ -34,7 +38,7 @@ const Dashboard = () => {
                 </div>
                 <div className="dashboard-item">
                     <h3>{t('sales-quality')}</h3>
-                    <SalesQuality />
+                    <SalesQuality/>
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 {
   "dashboard": "Dashboard",
   "settings": "Settings",
+  "account": "Account",
   "logout": "Log out",
   "sales-chart": "Sales Chart",
   "sales-tips": "Sales Tips",
@@ -21,5 +22,15 @@
   "orders": "Orders",
   "orders-paid": "Paid orders",
   "orders-unpaid": "Unpaid orders",
-  "orders-returned": "Returned orders"
+  "orders-returned": "Returned orders",
+  "total": "Total",
+
+  "revenue": "Revenue",
+  "turnover-lowercase": "turnover",
+  "quantity": "Quantity",
+  "today": "Today",
+  "week": "Week",
+  "show-previous-data": "Show previous data",
+  "bar-chart": "Bar chart",
+  "line-chart": "Line chart"
 }

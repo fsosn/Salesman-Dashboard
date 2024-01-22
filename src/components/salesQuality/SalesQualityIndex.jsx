@@ -1,4 +1,5 @@
 import './SalesQualityIndex.css'
+import {useTranslation} from "react-i18next";
 const SalesQualityIndex = ({salesIndex}) => {
     console.log('create salesQualityIndex' + salesIndex)
     let {img, value, name} = salesIndex
@@ -19,6 +20,7 @@ const SalesQualityIndexSummary = ({result}) => {
 }
 
 const SalesQualityAndTitle = ({ rating, title }) => {
+    const {t} = useTranslation();
     const renderStars = () => {
         const stars = [];
         for (let i = 0; i < rating; i++) {
@@ -38,7 +40,7 @@ const SalesQualityAndTitle = ({ rating, title }) => {
     return (
         <div className="sales-quality-index-stars-comment-container">
             <div className="sales-quality-index-stars-container">{renderStars()}</div>
-            <p className="sales-quality-index-comment">{title}</p>
+            <p className="sales-quality-index-comment">{t(title)}</p>
         </div>
     );
 };

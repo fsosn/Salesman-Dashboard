@@ -1,7 +1,6 @@
 import "./SalesTips.css"
-import ProceedButton from "../buttons/ProceedButton.js";
 import {useTranslation} from "react-i18next";
-import {Link, useNavigate} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 function SalesTips() {
     const {t} = useTranslation();
@@ -41,10 +40,8 @@ function SalesTips() {
                         fill="#F0E5FC"/>
                 </svg>
             </div>
-            <Link to={"/sales-tips"} className="d-flex justify-content-center align-items-center text-center">
-                    <div>
-                        {t("learn-more")}<ProceedButton/>
-                    </div>
+            <Link to={"/sales-tips"} className="d-flex justify-content-center align-items-center text-center tips-text">
+                        {`${t("learn-more")} \u00BB`}
             </Link>
         </div>
     );

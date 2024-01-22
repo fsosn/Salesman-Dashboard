@@ -18,7 +18,7 @@ export const customersOpinionsPositive = [
         rating: 4,
         name: 'Julie',
         comment: 'Ok',
-        img: 'https://lh3.googleusercontent.com/proxy/-5-wYznYIfZgRG28-nRxBdVYSPO-c7brC_piNNsE3gE4eQhV63sZT8XkeGw936IulUV5LBopPM177lTXEj49FkQwdnuq-o3KrLDm17trECZt-pMI5_KLpV0',
+        img: 'https://s.hdnux.com/photos/51/23/24/10827008/4/1200x0.jpg',
     },
     {
         id: '4',
@@ -43,7 +43,7 @@ export const customersOpinionsNegative = [
         rating: 2,
         name: 'Piter',
         comment: 'bad furniture',
-        img: 'https://lh3.googleusercontent.com/proxy/-5-wYznYIfZgRG28-nRxBdVYSPO-c7brC_piNNsE3gE4eQhV63sZT8XkeGw936IulUV5LBopPM177lTXEj49FkQwdnuq-o3KrLDm17trECZt-pMI5_KLpV0',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDOaZ-fP_3qeg5LwnjaTQc1YOOBf-LlPkvxcs0-fuyOEnJ8d6IXL4GVe1N6etsY-NKa4I&usqp=CAU',
     },
     {
         id: '2',
@@ -57,7 +57,7 @@ export const customersOpinionsNegative = [
         rating: 3,
         name: 'Julie',
         comment: 'Uncomfy sofa.',
-        img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Tom_Cruise_by_Gage_Skidmore_2.jpg/800px-Tom_Cruise_by_Gage_Skidmore_2.jpg',
+        img: 'https://s.hdnux.com/photos/51/23/24/10827008/4/1200x0.jpg',
     },
     {
         id: '4',
@@ -96,7 +96,7 @@ export const customersOpinionsAll = [
         rating: 3,
         name: 'Julie',
         comment: 'Nice sofa',
-        img: 'https://lh3.googleusercontent.com/proxy/-5-wYznYIfZgRG28-nRxBdVYSPO-c7brC_piNNsE3gE4eQhV63sZT8XkeGw936IulUV5LBopPM177lTXEj49FkQwdnuq-o3KrLDm17trECZt-pMI5_KLpV0',
+        img: 'https://s.hdnux.com/photos/51/23/24/10827008/4/1200x0.jpg',
     },
     {
         id: '4',
